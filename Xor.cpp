@@ -10,5 +10,6 @@ int main()
   int a,b;
   cin>>a>>b;
   int result = myXor(a,b);
+  // Alternate solution :- Use ^ symmbol for xor . e,g, cout<<a^b;
   cout<<result<<endl;
 }

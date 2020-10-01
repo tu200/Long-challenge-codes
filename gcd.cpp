@@ -25,6 +25,7 @@ int main()
 		a.push_back(input);
 	}
 	sort(a.begin(),a.end());
+	// We can directly loop for answers if values are low enough.
 	for(i=0;i<3;i++)
 	{
 	int res=lcm(res,a[i]);
